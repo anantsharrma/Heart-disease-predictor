@@ -8,13 +8,12 @@ model = joblib.load("heart_model.pkl")
 
 st.set_page_config(
     page_title="Heart Disease Predictor",
-    page_icon="❤️",
     layout="centered"
 )
 
 
 
-st.title("❤️ Heart Disease Predictor")
+st.title("Heart Disease Predictor")
 
 st.write(
     "Enter the patient's information below to get a "
@@ -130,13 +129,13 @@ if st.button("Predict", type="primary"):
     if prediction == 1:
 
         st.error(
-            "⚠️ Higher likelihood of heart disease"
+            " Higher likelihood of heart disease"
         )
 
     else:
 
         st.success(
-            "✅ Lower likelihood of heart disease"
+            "Lower likelihood of heart disease"
         )
 
 
