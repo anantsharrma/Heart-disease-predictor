@@ -1,5 +1,7 @@
 # Heart Disease Prediction
 
+Deployed at:- https://heart-disease-predictorgit-auqzy2s99ubuwemnj9xvi9.streamlit.app/
+
 A machine learning web application that predicts the likelihood of heart disease from patient health and clinical measurements.
 
 The project compares multiple classification algorithms, evaluates them using **Accuracy and F1 Score**, and deploys the best-performing model through a **Streamlit** interface.
